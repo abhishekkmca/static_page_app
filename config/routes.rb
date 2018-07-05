@@ -1,4 +1,8 @@
 StaticPageApp::Application.routes.draw do
+  get "homepage/home"
+
+  get "homepage/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
